@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 15px auto; /* Centers the form horizontally */
+    max-width: 600px;  /* Keeps the form from stretching too wide on desktop */
+    padding: 8px;
+    font-size: 16px;
+}
+h1{
+    text-align:center;
+    
+}
+
+/* Changed this from .container to apply directly to the form tag */
+form {
+    background: linear-gradient(90deg, rgb(6, 115, 211) 0%, rgba(0, 212, 208, 1) 50%, rgba(0, 201, 150, 1) 100%);
+    color: black;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+/* ADDED COMMAS HERE to fix the selector syntax */
+input[type="text"], 
+input[type="number"], 
+input[type="date"], 
+input[type="email"],
+input[type="password"], 
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+fieldset {
+    background-color:#d7d7d7d7;
+    border: 1px solid #ccc;
+}
+.main heading{
+    text-align: center;
+} 
+input[type="submit"] {
+    background-color: #003D4D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}   
+
+input[type="submit"]:hover 
+{
+    background-color:rgb(255, 30, 0);
+}
+
+
+    
+    
